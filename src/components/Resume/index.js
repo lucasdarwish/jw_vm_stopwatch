@@ -10,11 +10,12 @@ export default function GetResume( props ) {
         const generatedArr = props.dsg.allDesignateds.map( (item) => {
             return item
         })
-        // const generatedString = JSON.stringify(generatedArr).replaceAll(",", ", ").replace(/[`~!@#$%^&*()_|+\-?;'".<>\{\}\[\]\\\/]/gi, '')
+        console.log("generatedArr", generatedArr)
+        const generatedString = JSON.stringify(generatedArr).replaceAll(",", ", ").replace(/[`~!@#$%^&*()_|+\-?;'".<>\{\}\[\]\\\/]/gi, '').replaceAll("Parte", "\nParte")
 
         // console.log("generatedString", generatedString)
 
-        // window.open(`whatsapp://send?text=${generatedString}`)
+        window.open(`whatsapp://send?text=${generatedString}`)
     }
 
     return(
