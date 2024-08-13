@@ -1,3 +1,7 @@
+const theme = {
+    shadow: 'rgba(0, 0, 0, 0.9)',
+};
+
 const styles = {
     Main: {
 
@@ -7,9 +11,9 @@ const styles = {
         bottom: 0,
         right: 0,
         width: "15%",
-        height: "91px",
+        height: "75px",
         background: "#25d366",
-        padding: "15px 15px 50px",
+        padding: "15px 15px 25px",
         boxSizing: "border-box",
         borderTopLeftRadius: 5,
     },
@@ -19,22 +23,23 @@ const styles = {
     },
     QrcodeWrapper: {
         position: "fixed",
-        width: "100%",
-        height: "100%",
+        width: "100vw",
+        height: "100vh",
         top: 0,
         left: 0,
-        background: "#ffffff00",
-        backdropFilter: "blur(21px)",
+        background: theme.shadow,
+        backropFilter: "blur(50px)",
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
-        flexDirection: "column"
+        flexDirection: "column",
+        zIndex: 100
     },
     QrcodeWrapperImage: {
         width: "80%"
     },
     CloseShare:{
-        background: "#000",
+        background: "#3b3b3b",
         color: "#fff",
         padding: "20px",
         marginTop: "40px",

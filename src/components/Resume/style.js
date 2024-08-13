@@ -15,7 +15,7 @@ const styles = {
         backgroundColor: "#002768",
         display: "flex",
         alignItems: "center",
-        padding: "20px 20px 50px",
+        padding: "20px 20px 34px",
         backgroundColor: "rgb(66 0 63)",
         position: "fixed",
         bottom: 0,
