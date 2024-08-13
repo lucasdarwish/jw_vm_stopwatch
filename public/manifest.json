@@ -1,4 +1,5 @@
 {
+  "orientation": "portrait //Orientação do seu app.",
   "short_name": "React App",
   "name": "Create React App Sample",
   "icons": [
