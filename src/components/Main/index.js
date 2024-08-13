@@ -4,6 +4,7 @@ import styles from "./style";
 //Components
 import Designation from "../Designations";
 import GetResume from "../Resume";
+import Share from "../Share";
 
 export default function Main( props ) {
 
@@ -58,6 +59,7 @@ export default function Main( props ) {
 
             </div>
             <GetResume  dsg = { {  allDesignateds, setAllDesignateds } }/>
+            <Share />
         </>
 
     )

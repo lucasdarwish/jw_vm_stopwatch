@@ -4,17 +4,17 @@
   "name": "Cronômetro para Reunião Vida e Ministério",
   "icons": [
     {
-      "src": "https://assetsnffrgf-a.akamaihd.net/assets/ct/e781f8601f/images/siteLogo-jworg-large.svg",
+      "src": "cronometro.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "https://assetsnffrgf-a.akamaihd.net/assets/ct/e781f8601f/images/siteLogo-jworg-large.svg",
+      "src": "cronometro.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "https://assetsnffrgf-a.akamaihd.net/assets/ct/e781f8601f/images/siteLogo-jworg-large.svg",
+      "src": "cronometro.png",
       "type": "image/png",
       "sizes": "512x512"
     }
