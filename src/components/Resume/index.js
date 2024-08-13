@@ -11,7 +11,7 @@ export default function GetResume( props ) {
             return item
         })
         console.log("generatedArr", generatedArr)
-        const generatedString = JSON.stringify(generatedArr).replaceAll(",", ", ").replace(/[`~!@#$%^&*()_|+\-?;'".<>\{\}\[\]\\\/]/gi, '').replaceAll("Parte", "\nParte")
+        const generatedString = JSON.stringify(generatedArr).replaceAll(",", ", ").replace(/[`~!@#$%^&*()_|+\-?;'".<>\{\}\[\]\\\/]/gi, '').replaceAll("Parte", " | Parte")
 
         // console.log("generatedString", generatedString)
 
